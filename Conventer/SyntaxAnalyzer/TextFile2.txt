@@ -1,0 +1,18 @@
+﻿program var
+int IntOne, IntTwo
+begin
+read(IntOne, IntTwo );
+
+IntOne ass 123d;
+IntTwo ass 123d;
+
+/* this is a cool comment */
+
+for i ass 1d to i NE 211d do
+if i GE IntOne
+then IntOne ass i
+else IntTwo ass i;
+
+while IntTwo NE 213d do
+write( IntTwo plus 12d , IntOne min 61d );
+end.

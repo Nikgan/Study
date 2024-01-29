@@ -1,0 +1,21 @@
+﻿program var 
+integer IntOne, IntTwo, i, IntRead
+real RealFirst, RealSecond
+begin
+read(IntRead, IntTwo, IntOne);
+
+IntOne ass 14d div 12d;
+IntOne ass 1234o;
+IntTwo ass 442d;
+RealFirst ass 1e2;
+
+/* this is a cool comment */
+
+for i ass 1d to i NE 100d do
+if i GE IntOne
+then IntOne ass i
+else IntTwo ass i;
+
+while IntTwo NE 100d do
+write( IntTwo plus 45o , IntOne min 45o ) ;
+end.
